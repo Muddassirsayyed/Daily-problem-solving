@@ -1,0 +1,15 @@
+Q1] Ask user to enter a choice weather you want to remove a 
+    duplicate value then remove duplicate value from list when user enter yes'''
+# [using f strint]
+
+
+
+user = input('you want to remove a duplicate value please Enter yes = ')
+value = [1,2,3,4,5,1,2,3,4]
+
+
+if user == 'yes':
+    print(f'{list(set(value))}')
+
+else:
+    print('no')
