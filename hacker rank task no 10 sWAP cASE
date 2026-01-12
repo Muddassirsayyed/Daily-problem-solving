@@ -18,7 +18,7 @@ string: the modified string
 
 solution:
 def swap_case(s):
-    return s.swapcase()   #this all the code is given i only added s.swapcase() it makes the first letter small and others capital
+    return s.swapcase()   #this all the code is given i only added s.swapcase() it makes the capital letter small and small letters capital
 
 if __name__ == '__main__':
     s = input()
