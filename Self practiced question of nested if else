@@ -1,0 +1,15 @@
+num = 80
+if num >= 0 and num <51:
+    if num >17 or num<36:
+       print(f'{num} 18 to 35')
+    print(f'{num} is under 50') 
+
+elif num >50 and num <101:
+    if num >= 60 and num <= 80:
+        print(f'{num} between 60 to 80')
+    print(f'{num} above 50')   
+
+output:
+Enter a number between 0 to 100: 13
+13 18 to 35
+13 is under 50
