@@ -1,0 +1,8 @@
+#today i understand some  of the problems like 
+
+// 1. list is mutable (changable) (string, tupple)
+# Ex:  
+
+my_cars_list =['BMW','safari', 'farari', 'Gwagon'] 
+my_cars_list[0] = 'Lmabo'
+print(my_cars_list[0])
